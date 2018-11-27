@@ -116,7 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
+            this.BackgroundImage = global::MayTram_H.Properties.Resources.backgr_login;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(512, 257);
             this.Controls.Add(this.label3);
@@ -131,7 +131,6 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "User Log in";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 
