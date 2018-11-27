@@ -1,4 +1,4 @@
-﻿namespace QLMayTram
+﻿namespace MayTram_H
 {
     partial class FrmDoiMatKhau
     {
@@ -143,6 +143,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmDoiMatKhau";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change Password";
             this.ResumeLayout(false);
             this.PerformLayout();

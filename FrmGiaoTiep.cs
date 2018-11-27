@@ -17,7 +17,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Runtime.Serialization;
 using System.Threading;
 
-namespace QLMayTram
+namespace MayTram_H
 {
     public partial class FrmGiaoTiep : Form
     {

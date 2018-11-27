@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
 
-namespace QLMayTram
+namespace MayTram_H
 {
     public partial class FrmMayTram : Form
     {

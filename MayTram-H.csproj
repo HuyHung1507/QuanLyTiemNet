@@ -46,16 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmDichVu.designer.cs">
+      <DependentUpon>FrmDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDoiMatKhau.designer.cs">
+      <DependentUpon>FrmDoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGiaoTiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGiaoTiep.designer.cs">
+      <DependentUpon>FrmGiaoTiep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMayTram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMayTram.designer.cs">
+      <DependentUpon>FrmMayTram.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmDichVu.resx">
+      <DependentUpon>FrmDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDoiMatKhau.resx">
+      <DependentUpon>FrmDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGiaoTiep.resx">
+      <DependentUpon>FrmGiaoTiep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMayTram.resx">
+      <DependentUpon>FrmMayTram.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +115,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\backgr login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\key1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\food1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\log out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\game.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\backmenu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\backmenu.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,4 +1,4 @@
-﻿namespace QLMayTram
+﻿namespace MayTram_H
 {
     partial class frmLogin
     {
@@ -96,7 +96,7 @@
             this.label1.Size = new System.Drawing.Size(139, 27);
             this.label1.TabIndex = 11;
             this.label1.Text = "Username:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+
             // 
             // label3
             // 
@@ -110,7 +110,7 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "User Log in";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+
             // 
             // frmLogin
             // 

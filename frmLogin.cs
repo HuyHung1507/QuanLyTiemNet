@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QLMayTram
+namespace MayTram_H
 {
     public partial class frmLogin : Form
     {
@@ -32,17 +32,6 @@ namespace QLMayTram
          
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-      
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
             
     }
 }

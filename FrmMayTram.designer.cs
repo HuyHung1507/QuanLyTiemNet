@@ -1,4 +1,4 @@
-﻿namespace QLMayTram
+﻿namespace MayTram_H
 {
     partial class FrmMayTram
     {
