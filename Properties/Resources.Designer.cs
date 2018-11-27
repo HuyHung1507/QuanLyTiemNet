@@ -73,6 +73,26 @@ namespace MayTram_H.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backmenu {
+            get {
+                object obj = ResourceManager.GetObject("backmenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap backmenu1 {
+            get {
+                object obj = ResourceManager.GetObject("backmenu1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap chat {
             get {
                 object obj = ResourceManager.GetObject("chat", resourceCulture);
@@ -116,6 +136,16 @@ namespace MayTram_H.Properties {
         internal static System.Drawing.Bitmap log_out {
             get {
                 object obj = ResourceManager.GetObject("log out", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu {
+            get {
+                object obj = ResourceManager.GetObject("menu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
